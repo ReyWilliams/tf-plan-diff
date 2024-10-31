@@ -1,5 +1,5 @@
 /**
- * Javascript shim inspired by from Blend:
+ * Javascript shim inspired by Blend:
  * https://full-stack.blend.com/how-we-write-github-actions-in-go/invoke-binary.js
  */
 
@@ -7,7 +7,7 @@ const childProcess = require('child_process')
 const os = require('os')
 const process = require('process')
 
-const VERSION = '137dd51472e612ad91765b5dcfa07546164b9eed'
+const VERSION = '103b8f8ab604d8a2ffa9d34555c2d49e1fde4b03'
 
 function chooseBinary() {
     const platform = os.platform()
